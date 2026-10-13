@@ -1,0 +1,9 @@
+Perfusorrechner PWA 1.7 – Installationsanleitung
+
+1. Die Dateien index.html, manifest.webmanifest, sw.js sowie alle drei icon-*.png Dateien in das Stammverzeichnis eines GitHub-Repositories hochladen.
+2. Repository > Settings > Pages > Deploy from a branch > main / (root) > Save.
+3. Die angezeigte HTTPS-Adresse auf dem iPhone in Safari öffnen.
+4. Teilen > Zum Home-Bildschirm > Hinzufügen.
+5. Die App bei bestehender Internetverbindung einmal vollständig öffnen, danach Flugmodus-Test durchführen.
+
+WICHTIG: GitHub Pages veröffentlicht die Seite öffentlich. Keine Patientendaten im Code hinterlegen. Klinische Validierung steht aus.
