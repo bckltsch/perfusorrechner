@@ -1,4 +1,4 @@
-const CACHE = 'perfusor-v1-7-20261013';
+const CACHE = 'perfusor-v1-8-20261013';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-180.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
